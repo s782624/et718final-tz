@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cast: MyString
+  plat: MyText
+  movie_url: MyString
+  poster_url: MyString
+
+two:
+  cast: MyString
+  plat: MyText
+  movie_url: MyString
+  poster_url: MyString

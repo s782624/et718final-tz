@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cast:</strong>
+  <%= @title.cast %>
+</p>
+
+<p>
+  <strong>Plat:</strong>
+  <%= @title.plat %>
+</p>
+
+<p>
+  <strong>Movie url:</strong>
+  <%= @title.movie_url %>
+</p>
+
+<p>
+  <strong>Poster url:</strong>
+  <%= @title.poster_url %>
+</p>
+
+<%= link_to 'Edit', edit_title_path(@title) %> |
+<%= link_to 'Back', titles_path %>
