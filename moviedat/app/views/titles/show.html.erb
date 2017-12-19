@@ -15,6 +15,11 @@
   <%= @title.movie_url %>
 </p>
 
+<video width="320" height="240" controls>
+  <source src="<%= @title.movie_url %>" type="video/mp4">
+
+</video>
+
 <p>
   <strong>Poster url:</strong>
   <%= @title.poster_url %>
